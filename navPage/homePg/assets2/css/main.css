@@ -147,8 +147,9 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2.5em;
 		line-height: 1.5em;
+		text-align: center;
 	}
 
 	h3 {
@@ -2450,6 +2451,7 @@ input, select, textarea {
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			
 		}
 
 		#header .image.avatar {
@@ -2484,6 +2486,8 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
+
+        
 
 /* Poptrox */
 
