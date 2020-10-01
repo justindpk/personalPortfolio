@@ -16,6 +16,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	zoom: 90%;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -152,7 +153,7 @@ input, select, textarea {
 		background-color: #0C5BA0; 
 		background-color: #05738E; */
 		background-color: #272533;
-		color: #000000;
+		color: #fff;
 	}
 
 	body, input, select, textarea {
@@ -185,6 +186,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		color: #fff;
 	}
 
 		p.major {
@@ -317,11 +319,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #000000;
+		color: #fff;
 	}
 
 	a {
-		color: #000000;
+		color: #fff;
 	}
 
 		a:hover {
@@ -329,11 +331,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #000000;
+		color: #fff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #fff;
 	}
 
 	blockquote {
@@ -9085,7 +9087,7 @@ input, select, textarea {
 			margin: 0;
 			line-height: 1em;
 			padding: 0.5em;
-			background: rgba(255, 255, 255, 0.95);
+ 			background: black;
 			color: rgba(185, 186, 187, 0.5);
 			overflow: hidden;
 		}

@@ -19,6 +19,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	zoom: 99%;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -624,8 +625,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
-		color: #39454b;
+		background: black;
+		color: #fff;
 		padding: 2em;
 	}
 
@@ -1884,7 +1885,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: black;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1915,6 +1916,7 @@ input, select, textarea {
 
 			#header nav ul {
 				margin: 0;
+				color: #fff;
 			}
 
 				#header nav ul li {
@@ -2071,6 +2073,7 @@ input, select, textarea {
 				-webkit-justify-content: -webkit-flex-end;
 				-ms-justify-content: -ms-flex-end;
 				justify-content: flex-end;
+				
 			}
 
 			.main.style2.inactive.left > .content {
@@ -2230,7 +2233,7 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: rgba(255, 255, 255, 0.95);
+		background: black;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2308,7 +2311,7 @@ input, select, textarea {
 /* About */
 
 	#about {
-		background: url("images/overlay.png"), url("../../images/temp.png");
+		background: url("images/overlay.png"), url("../../images/marble.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
